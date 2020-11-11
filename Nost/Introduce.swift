@@ -14,7 +14,7 @@ struct Introduce: View {
         NavigationView{
             VStack{
                 
-                CircleImage()
+                CircleImage2()
                 
                 VStack (alignment: .leading){
                     Text("Hello, My name is Nost")
@@ -31,17 +31,33 @@ struct Introduce: View {
                         Image(systemName: "iphone")
                         Text("+66 80-562-7186").font(.headline)
                             .foregroundColor(.secondary)
+                        Image(systemName: "location")
+                        Text("Bangkok").font(.headline)
+                            .foregroundColor(.secondary)
+                    }
+                    HStack{
+                        Image(systemName: "mail")
+                        Text("nostprumprajee@gmail.com").font(.headline)
+                            .foregroundColor(.secondary)
                     }
                     HStack{
                         Image(systemName: "icloud")
                     Button("GitHub"){
                         openURL(URL(string:  "https://github.com/nostprumprajee")!)}
                     }
-                    
+                    NavigationLink(destination: Experience()) {
+                        Text("Next").frame(width: 200, height: 5, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(20)
+                            .foregroundColor(.white)
+                            .background(Color.blue)
+                            .cornerRadius(40)
+                            .font(.headline)
+                            .foregroundColor(.secondary)
+                    }.frame(width: 350, height: 50, alignment: .center)
                     
                 }
-            }.frame(width: 500, height: 600, alignment: .top)
+            }.frame(width: 500, height: 650, alignment: .top)
         }.navigationBarTitle("About Me")
+        
     }
 }
 

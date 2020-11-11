@@ -13,6 +13,7 @@
 		FE635F51255A9C3400EEC9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE635F50255A9C3400EEC9B6 /* Assets.xcassets */; };
 		FE635F54255A9C3400EEC9B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE635F53255A9C3400EEC9B6 /* Preview Assets.xcassets */; };
 		FE635F57255A9C3400EEC9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE635F55255A9C3400EEC9B6 /* LaunchScreen.storyboard */; };
+		FE843845255C7E3C00D1B14B /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE843844255C7E3C00D1B14B /* Experience.swift */; };
 		FECE68D3255BBE53006437CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68D2255BBE53006437CF /* CircleImage.swift */; };
 		FECE68D7255BC0E2006437CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68D6255BC0E2006437CF /* MapView.swift */; };
 		FECE68DB255BF3E3006437CF /* Introduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68DA255BF3E3006437CF /* Introduce.swift */; };
@@ -28,6 +29,7 @@
 		FE635F53255A9C3400EEC9B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE635F56255A9C3400EEC9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE635F58255A9C3400EEC9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE843844255C7E3C00D1B14B /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		FECE68D2255BBE53006437CF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FECE68D6255BC0E2006437CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FECE68DA255BF3E3006437CF /* Introduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduce.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				FECE68DE255C0479006437CF /* CircleImage2.swift */,
 				FECE68D6255BC0E2006437CF /* MapView.swift */,
 				FECE68DA255BF3E3006437CF /* Introduce.swift */,
+				FE843844255C7E3C00D1B14B /* Experience.swift */,
 				FE635F50255A9C3400EEC9B6 /* Assets.xcassets */,
 				FE635F55255A9C3400EEC9B6 /* LaunchScreen.storyboard */,
 				FE635F58255A9C3400EEC9B6 /* Info.plist */,
@@ -161,6 +164,7 @@
 				FE635F4B255A9C2500EEC9B6 /* AppDelegate.swift in Sources */,
 				FECE68D3255BBE53006437CF /* CircleImage.swift in Sources */,
 				FECE68D7255BC0E2006437CF /* MapView.swift in Sources */,
+				FE843845255C7E3C00D1B14B /* Experience.swift in Sources */,
 				FE635F4D255A9C2500EEC9B6 /* SceneDelegate.swift in Sources */,
 				FE635F4F255A9C2500EEC9B6 /* ContentView.swift in Sources */,
 				FECE68DB255BF3E3006437CF /* Introduce.swift in Sources */,
