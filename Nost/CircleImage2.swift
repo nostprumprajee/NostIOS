@@ -11,9 +11,10 @@ import SwiftUI
 struct CircleImage2: View {
     var body: some View {
         VStack{
-        Image("download")
-            .clipShape(Circle()).overlay(Circle().stroke(Color.white,lineWidth: 2)).shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-        }
+            Image("download")
+            
+            .clipShape(Circle()).overlay(Circle().stroke(Color.white,lineWidth: 2)).shadow(radius: 10)
+        }.frame(width: 500, height: 600, alignment: .top)
         
         
     }

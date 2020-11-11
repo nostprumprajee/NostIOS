@@ -13,8 +13,9 @@ struct Introduce: View {
     var body: some View {
         NavigationView{
             VStack{
+                
                 CircleImage()
-                                
+                
                 VStack (alignment: .leading){
                     Text("Hello, My name is Nost")
                         .font(.largeTitle)
@@ -39,7 +40,7 @@ struct Introduce: View {
                     
                     
                 }
-            }.edgesIgnoringSafeArea(.all)
+            }.frame(width: 500, height: 600, alignment: .top)
         }.navigationBarTitle("About Me")
     }
 }
