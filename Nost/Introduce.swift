@@ -10,10 +10,23 @@ import SwiftUI
 
 struct Introduce: View {
     var body: some View {
-        Text("Hello, Second View!")
+        VStack(alignment: .center){
+            CircleImage()
+        }
+        VStack (alignment: .leading){
+        Text("Hello, My name is Nost")
                     .font(.largeTitle)
-                    .fontWeight(.medium)
-                    .foregroundColor(Color.blue)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
+        Text("WIRAWAT BUNLOM").font(.headline)
+            .foregroundColor(.secondary)
+        Text("Software Developer @ IBM").font(.headline)
+            .foregroundColor(.secondary)
+        Text("B.Eng (Computer Engineering) @ KMITL").font(.headline)
+            .foregroundColor(.secondary)
+
+        }.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
     }
 }
 
