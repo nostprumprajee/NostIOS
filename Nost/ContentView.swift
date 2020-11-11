@@ -9,35 +9,70 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingAlert = false
     var body: some View {
-        
-        
+    
+    NavigationView{
         VStack {
-            MapView().frame(height: 500)
+            MapView().frame(height: 450)
             
             CircleImage().offset(y: -130).padding(.bottom, -130)
             
             VStack (alignment: .leading){
                 Text("Hello, World!").font(.title)
+                    .fontWeight(.black)
+                    .foregroundColor(.primary)
+                    .lineLimit(3)
                 HStack {
-                Text("NOST").font(.subheadline)
+                Text("NOST").font(.headline)
+                    .foregroundColor(.secondary)
                     Spacer()
-                Text("Developer").font(.subheadline)
+                Text("Software Developer").font(.headline)
+                    .foregroundColor(.secondary)
                 }
             }.padding()
-            Spacer()
-            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+            
+            HStack{
+                NavigationLink(destination: Introduce()) {
+                Text("ENTER").padding()
+                    .foregroundColor(.white)
+                    .background(Color.green)
+                    .cornerRadius(40)
+            }
+            
+                Button(action: {
+                    self.showingAlert = true
+                }) {
+                    HStack{
+                    Image(systemName: "trash")
+                        Text("Delete")}
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.red)
+                        .cornerRadius(40)
+                }
+                .alert(isPresented:$showingAlert) {
+                    Alert(title: Text("Are you sure you want to delete this?"), message: Text("There is no undo"), primaryButton: .destructive(Text("Delete")) {
+                            print("Deleting...")
+                    }, secondaryButton: .cancel())
             }
             
         }
-        
+        }.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+            ContentView()
+            ContentView()
+            ContentView()
+            ContentView()
+        }
     }
+}
 }
