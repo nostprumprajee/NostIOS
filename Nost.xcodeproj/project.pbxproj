@@ -13,6 +13,8 @@
 		FE635F51255A9C3400EEC9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE635F50255A9C3400EEC9B6 /* Assets.xcassets */; };
 		FE635F54255A9C3400EEC9B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE635F53255A9C3400EEC9B6 /* Preview Assets.xcassets */; };
 		FE635F57255A9C3400EEC9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE635F55255A9C3400EEC9B6 /* LaunchScreen.storyboard */; };
+		FECE68D3255BBE53006437CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68D2255BBE53006437CF /* CircleImage.swift */; };
+		FECE68D7255BC0E2006437CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68D6255BC0E2006437CF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FE635F53255A9C3400EEC9B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE635F56255A9C3400EEC9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE635F58255A9C3400EEC9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECE68D2255BBE53006437CF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FECE68D6255BC0E2006437CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FE635F4A255A9C2500EEC9B6 /* AppDelegate.swift */,
 				FE635F4C255A9C2500EEC9B6 /* SceneDelegate.swift */,
 				FE635F4E255A9C2500EEC9B6 /* ContentView.swift */,
+				FECE68D2255BBE53006437CF /* CircleImage.swift */,
+				FECE68D6255BC0E2006437CF /* MapView.swift */,
 				FE635F50255A9C3400EEC9B6 /* Assets.xcassets */,
 				FE635F55255A9C3400EEC9B6 /* LaunchScreen.storyboard */,
 				FE635F58255A9C3400EEC9B6 /* Info.plist */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE635F4B255A9C2500EEC9B6 /* AppDelegate.swift in Sources */,
+				FECE68D3255BBE53006437CF /* CircleImage.swift in Sources */,
+				FECE68D7255BC0E2006437CF /* MapView.swift in Sources */,
 				FE635F4D255A9C2500EEC9B6 /* SceneDelegate.swift in Sources */,
 				FE635F4F255A9C2500EEC9B6 /* ContentView.swift in Sources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +297,7 @@
 				DEVELOPMENT_TEAM = KCFTG9VT7W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Nost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				DEVELOPMENT_TEAM = KCFTG9VT7W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Nost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,7 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        
+        VStack (alignment: .leading){
+            Text("Hello, World!").font(.title)
+            HStack {
+            Text("NOST").font(.subheadline)
+                Spacer()
+            Text("Developer").font(.subheadline)
+            }
+        }.padding()
+        
+        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+        }
     }
 }
 
