@@ -12,18 +12,27 @@ struct ContentView: View {
     var body: some View {
         
         
-        VStack (alignment: .leading){
-            Text("Hello, World!").font(.title)
-            HStack {
-            Text("NOST").font(.subheadline)
-                Spacer()
-            Text("Developer").font(.subheadline)
+        VStack {
+            MapView().frame(height: 500)
+            
+            CircleImage().offset(y: -130).padding(.bottom, -130)
+            
+            VStack (alignment: .leading){
+                Text("Hello, World!").font(.title)
+                HStack {
+                Text("NOST").font(.subheadline)
+                    Spacer()
+                Text("Developer").font(.subheadline)
+                }
+            }.padding()
+            Spacer()
+            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
             }
-        }.padding()
-        
-        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+            
         }
+        
+        
     }
 }
 
