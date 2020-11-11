@@ -9,24 +9,38 @@
 import SwiftUI
 
 struct Introduce: View {
+    @Environment(\.openURL) var openURL
     var body: some View {
-        VStack(alignment: .center){
-            CircleImage()
-        }
-        VStack (alignment: .leading){
-        Text("Hello, My name is Nost")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color.white)
-        Text("WIRAWAT BUNLOM").font(.headline)
-            .foregroundColor(.secondary)
-        Text("Software Developer @ IBM").font(.headline)
-            .foregroundColor(.secondary)
-        Text("B.Eng (Computer Engineering) @ KMITL").font(.headline)
-            .foregroundColor(.secondary)
-
-        }.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        
+        NavigationView{
+            VStack{
+                CircleImage()
+                                
+                VStack (alignment: .leading){
+                    Text("Hello, My name is Nost")
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.white)
+                    Text("WIRAWAT BUNLOM").font(.headline)
+                        .foregroundColor(.secondary)
+                    Text("Software Developer @ IBM").font(.headline)
+                        .foregroundColor(.secondary)
+                    Text("B.Eng (Computer Engineering) @ KMITL").font(.headline)
+                        .foregroundColor(.secondary)
+                    HStack{
+                        Image(systemName: "iphone")
+                        Text("+66 80-562-7186").font(.headline)
+                            .foregroundColor(.secondary)
+                    }
+                    HStack{
+                        Image(systemName: "icloud")
+                    Button("GitHub"){
+                        openURL(URL(string:  "https://github.com/nostprumprajee")!)}
+                    }
+                    
+                    
+                }
+            }.edgesIgnoringSafeArea(.all)
+        }.navigationBarTitle("About Me")
     }
 }
 

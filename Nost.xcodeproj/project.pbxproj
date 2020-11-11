@@ -16,6 +16,7 @@
 		FECE68D3255BBE53006437CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68D2255BBE53006437CF /* CircleImage.swift */; };
 		FECE68D7255BC0E2006437CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68D6255BC0E2006437CF /* MapView.swift */; };
 		FECE68DB255BF3E3006437CF /* Introduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68DA255BF3E3006437CF /* Introduce.swift */; };
+		FECE68DF255C0479006437CF /* CircleImage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE68DE255C0479006437CF /* CircleImage2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FECE68D2255BBE53006437CF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FECE68D6255BC0E2006437CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FECE68DA255BF3E3006437CF /* Introduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduce.swift; sourceTree = "<group>"; };
+		FECE68DE255C0479006437CF /* CircleImage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				FE635F4C255A9C2500EEC9B6 /* SceneDelegate.swift */,
 				FE635F4E255A9C2500EEC9B6 /* ContentView.swift */,
 				FECE68D2255BBE53006437CF /* CircleImage.swift */,
+				FECE68DE255C0479006437CF /* CircleImage2.swift */,
 				FECE68D6255BC0E2006437CF /* MapView.swift */,
 				FECE68DA255BF3E3006437CF /* Introduce.swift */,
 				FE635F50255A9C3400EEC9B6 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 				FE635F4D255A9C2500EEC9B6 /* SceneDelegate.swift in Sources */,
 				FE635F4F255A9C2500EEC9B6 /* ContentView.swift in Sources */,
 				FECE68DB255BF3E3006437CF /* Introduce.swift in Sources */,
+				FECE68DF255C0479006437CF /* CircleImage2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
